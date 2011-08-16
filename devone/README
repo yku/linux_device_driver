@@ -1,0 +1,3 @@
+$ make
+# /sbin/insmod ./sample.ko
+# /bin/mknod --mode=666 /dev/devone c `grep devone /proc/devices | awk '{print ; }'` 0
